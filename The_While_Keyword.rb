@@ -8,7 +8,7 @@ end
 p i
 
 
-while status
+while status # == true
   print "Enter username: "
   username = gets.chomp.downcase
   print "Enter password: "
