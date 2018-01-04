@@ -16,7 +16,7 @@ custom_concat([1,2,3], [4,5])
 def custom_concat_with_idea(arr1, arr2)
 arr2.each do |o|
 
-arr1.push(o)
+arr1.push(o) #arr1 << o
 end
 p arr1
 end
