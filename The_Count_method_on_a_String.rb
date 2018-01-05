@@ -29,6 +29,6 @@ end
 p count
 end
 
-custom_count("Hello world", "l")
-custom_count_simplified("Hello world", "l")
-boris_way("hello world","l")
+custom_count("Hello world", "o")
+custom_count_simplified("Hello world", "o")
+boris_way("hello world","o")
