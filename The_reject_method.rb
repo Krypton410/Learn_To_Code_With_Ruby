@@ -12,7 +12,7 @@ end
 
 
 new_animals_select = animals.select do |i|
-  i.index("c") != 0
+  i.index("c") != 0 #==
 end
 
 p new_animals_reject

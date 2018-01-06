@@ -6,7 +6,7 @@ word = []
 string.chars do |i|
   word.push(i) unless i == char
 
-
+  #wrong should've used include  on condition statement
 
 end
 puts word.join
@@ -25,5 +25,5 @@ def boris_way(string, deleted_characters)
 
 
 boris_way("Hello World", "l")
-custom_delete("Hello World","orld")
+custom_delete("Hello World","o")
 p custom_delete("Hello World","l") == boris_way("Hello World", "l")
