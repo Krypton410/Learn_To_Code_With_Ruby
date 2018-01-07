@@ -18,5 +18,3 @@ the_good, the_bad = combined
 p good
 p bad
 p combined
-
-p the_bad

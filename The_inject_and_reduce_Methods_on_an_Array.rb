@@ -18,13 +18,3 @@ puts "Current Element  : #{current}"
 
 p previous * current
 end
-
-
-word = "hello"
-
-dup_word = ""
-word.chars.reduce(0) do |previous, current|
-  dup_word << previous + current
-
-end
-p dup_word
