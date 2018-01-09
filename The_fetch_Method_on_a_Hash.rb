@@ -8,5 +8,5 @@ p menu[:chips]
 p  menu.fetch(:burger) #similar
 p  menu.fetch(:chips)
 
-p  menu.fetch(:salad, "ooh") 
+p  menu.fetch(:salad, "ooh")
 # ^ will return error but second arg will catch it
