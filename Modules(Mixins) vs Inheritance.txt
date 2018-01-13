@@ -1,0 +1,4 @@
+Class inheritance should be used for an is-a relationship
+For example, and array is a type of Object. A Fixnum is a type of Integer.
+Modules should be used for a has-a relationship. It adds functionality.
+For example, a String has a Comparable feature set.
